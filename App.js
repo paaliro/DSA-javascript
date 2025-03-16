@@ -91,3 +91,6 @@
 // Nested ternary operator 
 
 
+// (03.16.2025)
+// Question No.13 : Sum of n natural numbers and factorial of numbers
+
