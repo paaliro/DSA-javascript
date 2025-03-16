@@ -14,7 +14,6 @@
 // } console.log("Payable amount:", amount - Math.floor((discount * amount) / 100));
 
 
-
 // Question No.11
 
 // let unit = Number(prompt("Enter electricity unit ?"))
@@ -90,3 +89,5 @@
 // ?(condition): true : false
 
 // Nested ternary operator 
+
+
