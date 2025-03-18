@@ -98,11 +98,16 @@ var n = Number(prompt("kaha takk karvaoge ?"))
 // console.log("Answer :", n);
 
 if (isNaN(n)) {
-    console.log('Invalid Input. Please Enter a "Number".');
-} else {
+    console.log("Please enter a valid number.");
+} else {2
     if (n > 0) {
-        console.log("Is positive.");
+        var sum = 0;
+        for (var i = 1; i <= n; i++) {
+            sum = sum + i;
+        }
+        console.log("sum :", sum);
+        
     } else {
-        console.log("should be a positive number.");
+        console.log("Number should be positive and greater than zero.");
     }
 }
