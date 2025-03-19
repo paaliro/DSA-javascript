@@ -94,12 +94,12 @@
 // (03.16.2025)
 // Question No.13 : Sum of n natural numbers and factorial of numbers
 
-var n = Number(prompt("kaha takk karvaoge ?"))
-// console.log("Answer :", n);
+var p = prompt("kaha takk karvaoge ?");
+var n = Number(p);
 
 if (isNaN(n)) {
     console.log("Please enter a valid number.");
-} else {2
+} else {
     if (n > 0) {
         var sum = 0;
         for (var i = 1; i <= n; i++) {
