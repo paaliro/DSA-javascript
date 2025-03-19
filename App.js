@@ -94,21 +94,25 @@
 // (03.16.2025)
 // Question No.13 : Sum of n natural numbers and factorial of numbers
 
-var p = prompt("kaha takk karvaoge ?");
-var n = Number(p);
+var pr = prompt("kaha takk karvaoge ?");
+var n = Number(pr);
 
-if (isNaN(n)) {
-    console.log("Please enter a valid number.");
-} else {
-    if (n > 0) {
-        var sum = 0;
-        for (var i = 1; i <= n; i++) {
-            sum = sum + i;
-        }
-        console.log("sum :", sum);
-        
-    } else {
-        console.log("Number should be positive and greater than zero.");
-    }
+if (pr === null) {
+    console.log("The command is Cancelled.");
 }
- 
+else {
+    if (isNaN(n)) {
+        console.log("Please enter a valid number.");
+    } else {
+        if (n > 0) {
+            var sum = 0;
+            for (var i = 1; i <= n; i++) {
+                sum = sum + i;
+            }
+            console.log("sum :", sum);
+            
+        } else {
+            console.log("Number should be positive and greater than zero.");
+        }
+    }   
+}
