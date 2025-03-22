@@ -115,7 +115,5 @@ else {
         } else {
             console.log("Number should be positive and greater than zero.");
         }
-
-        
     }   
 }
