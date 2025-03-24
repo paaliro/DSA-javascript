@@ -108,7 +108,7 @@ else {
         if (n > 0) {
             var fact = 0;
             for (var i = 1; i <= n; i++) {
-                fact = fact + i;
+                fact = fact + i; 
             }
             console.log("fact :", fact);
             
