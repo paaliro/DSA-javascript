@@ -106,11 +106,11 @@ else {
         console.log("Please enter a valid number.");
     } else {
         if (n > 0) {
-            var sum = 0;
+            var fact = 0;
             for (var i = 1; i <= n; i++) {
-                sum = sum + i;
+                fact = fact + i;
             }
-            console.log("sum :", sum);
+            console.log("fact :", fact);
             
         } else {
             console.log("Number should be positive and greater than zero.");
