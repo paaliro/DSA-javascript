@@ -93,7 +93,7 @@
 
 
 // (03.16.2025)
-// Question No.13 : Sum of n natural numbers and factorial of numbers
+// Question No.13 : Sum of n natural numbers and factorial of numbersss
 
 var pr = prompt("kaha takk karvaoge ?");
 var n = Number(pr);
