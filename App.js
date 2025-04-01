@@ -120,9 +120,7 @@
 
 
 // 04.01.2025
-// Question No.14 
-
-1
+// Question No.14 ( Make a function for factors ?)
 
 
 var pr = prompt("kaha takk karvaoge ?");
@@ -137,12 +135,15 @@ else {
         console.log("Invalid Input.");
     }
     else {
-        if ( n ){
-
+        if (n > 0) {
+            for (var i = 1; i <= n; i++)
+                if (n % i === 0){
+                    console.log(i);
+                }
         }
-            else{
-                console.log("number should be ");
-                
+        else {
+            console.log("number should be positive(+) and more then 0.");
+
         }
 
     }
