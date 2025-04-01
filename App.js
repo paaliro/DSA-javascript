@@ -95,27 +95,55 @@
 // (03.16.2025)
 // Question No.13 : Sum of n natural numbers and factorial of numbersss
 
+// var pr = prompt("kaha takk karvaoge ?");
+// var n = Number(pr);
+
+// if (pr === null) {
+//     console.log("The command is Cancelled.");
+// }
+// else {
+//     if (isNaN(n)) {
+//         console.log("Please enter a valid number.");
+//     } else {
+//         if (n > 0) {
+//             var fact = 0;
+//             for (var i = 1; i <= n; i++) {
+//                 fact = fact + i; 
+//             }
+//             console.log("fact :", fact);
+
+//         } else {
+//             console.log("Number should be positive and greater than zero.");
+//         }
+//     }   
+// }
+
+
+// 04.01.2025
+// Question No.14 
+
+1
+
+
 var pr = prompt("kaha takk karvaoge ?");
-var n = Number(pr);
 
 if (pr === null) {
     console.log("The command is Cancelled.");
 }
 else {
-    if (isNaN(n)) {
-        console.log("Please enter a valid number.");
-    } else {
-        if (n > 0) {
-            var fact = 0;
-            for (var i = 1; i <= n; i++) {
-                fact = fact + i; 
-            }
-            console.log("fact :", fact);
-            
-        } else {
-            console.log("Number should be positive and greater than zero.");
-        }
-    }   
-}
+    var n = Number(pr);
 
-// Question No.14 
+    if (isNaN(n)) {
+        console.log("Invalid Input.");
+    }
+    else {
+        if ( n ){
+
+        }
+            else{
+                console.log("number should be ");
+                
+        }
+
+    }
+}
