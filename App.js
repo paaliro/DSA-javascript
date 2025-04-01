@@ -123,28 +123,30 @@
 // Question No.14 ( Make a function for factors ?)
 
 
-var pr = prompt("kaha takk karvaoge ?");
+// var pr = prompt("kaha takk karvaoge ?");
 
-if (pr === null) {
-    console.log("The command is Cancelled.");
-}
-else {
-    var n = Number(pr);
+// if (pr === null) {
+//     console.log("The command is Cancelled.");
+// }
+// else {
+//     var n = Number(pr);
 
-    if (isNaN(n)) {
-        console.log("Invalid Input.");
-    }
-    else {
-        if (n > 0) {
-            for (var i = 1; i <= n; i++)
-                if (n % i === 0){
-                    console.log(i);
-                }
-        }
-        else {
-            console.log("number should be positive(+) and more then 0.");
+//     if (isNaN(n)) {
+//         console.log("Invalid Input.");
+//     }
+//     else {
+//         if (n > 0) {
+//             for (var i = 1; i <= Math.floor(n / 2); i++) {
+//                 if (n % i === 0) {
+//                     console.log(i);
+//                 }
+//             }
+//             console.log(n);
+//         }
+//         else {
+//             console.log("number should be positive(+) and more then 0.");
 
-        }
+//         }
 
-    }
-}
+//     }
+// }
