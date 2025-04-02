@@ -150,3 +150,7 @@
 
 //     }
 // }
+
+// Q.No. 15 Prime Numbers
+
+
