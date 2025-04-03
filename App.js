@@ -153,4 +153,18 @@
 
 // Q.No. 15 Prime Numbers
 
+var pr = prompt("value ?");
 
+if (pr === null) {
+    console.log("The command is cancelled.");
+}
+else {
+    var n = Number(pr)
+
+    if (isNaN(n)) {
+        console.log("Invalid Input.");
+    }
+    else {
+        
+    }
+}
