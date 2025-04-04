@@ -165,6 +165,11 @@ else {
         console.log("Invalid Input.");
     }
     else {
-        
+        if (  ) {
+            
+        }
+        else {
+            console.log("number should be positive(+) and more then 0.");
+        }
     }
 }
