@@ -165,8 +165,9 @@ else {
         console.log("Invalid Input.");
     }
     else {
-        if (  ) {
-            
+        if (n > 0) {
+            var primeHain = true;
+            for( var i = 1; )
         }
         else {
             console.log("number should be positive(+) and more then 0.");
